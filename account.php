@@ -30,14 +30,14 @@ if (isset($_SESSION['ses_username'])===false){
     transform: translateY(5rem)
 }
 .cover {
-    background-image: url('images/photo-profile-background.avif');
+    background-image: url('images/orv.jpeg');
     background-size: cover;
     background-repeat: no-repeat
 }
 
 body {
-    background: #654ea3;
-    background: linear-gradient(to right, #e96443, #904e95);
+    background: rgb(41,26,47);
+    background: linear-gradient(90deg, rgba(41,26,47,1) 0%, rgba(255,255,255,1) 52%, rgba(64,56,77,1) 100%);
     min-height: 100vh;
     overflow-x: hidden
 }</style>
@@ -65,13 +65,13 @@ body {
             <div class="bg-light p-4 d-flex justify-content-end text-center">
                 <ul class="list-inline mb-0">
                     <li class="list-inline-item">
-                        <h5 class="font-weight-bold mb-0 d-block">21,150</h5><small class="text-muted"> <i class="fas fa-image mr-1"></i>Photos</small>
+                        <h5 class="font-weight-bold mb-0 d-block">10</h5><small class="text-muted"> <i class="fas fa-image mr-1"></i>Photos</small>
                     </li>
                     <li class="list-inline-item">
-                        <h5 class="font-weight-bold mb-0 d-block">756,450</h5><small class="text-muted"> <i class="fas fa-user mr-1"></i>Followers</small>
+                        <h5 class="font-weight-bold mb-0 d-block">1,431,037</h5><small class="text-muted"> <i class="fas fa-user mr-1"></i>Followers</small>
                     </li>
                     <li class="list-inline-item">
-                        <h5 class="font-weight-bold mb-0 d-block">340</h5><small class="text-muted"> <i class="fas fa-user mr-1"></i>Following</small>
+                        <h5 class="font-weight-bold mb-0 d-block">0</h5><small class="text-muted"> <i class="fas fa-user mr-1"></i>Following</small>
                     </li>
                 </ul>
             </div>
@@ -79,8 +79,8 @@ body {
             <div class="px-4 py-3">
                 <h5 class="mb-0">@yezxel</h5>
                 <div class="p-4 rounded shadow-sm bg-light">
-                    <p class="font-italic mb-0">||</p>
-                    <p class="font-italic mb-0">Omnic</p>
+                    <p class="font-italic mb-0">Writer</p>
+                    <p class="font-italic mb-0">Digital Artist</p>
                     <p class="font-italic mb-0"><i>Follow me on my Socials</i></p>
                 </div>
             </div>
@@ -91,16 +91,16 @@ body {
                 </div>
                 <div class="row">
                     
-                    <div class="col-lg-6 mb-2 pr-lg-1"><img src="images/image2.jpg" alt="" class="img-fluid rounded shadow-sm"></div>              
-                    <div class="col-lg-6 mb-2 pl-lg-1"><img src="images/image3.jpeg" alt="" class="img-fluid rounded shadow-sm"></div>                
-                    <div class="col-lg-6 pr-lg-1 mb-2"><img src="images/image4.jpg" alt="" class="img-fluid rounded shadow-sm"></div>
-                    <div class="col-lg-6 pl-lg-1"><img src="images/image5.jpg" alt="" class="img-fluid rounded shadow-sm"></div>
+                    <div class="col-lg-6 mb-2 pr-lg-1"><img src="images/pic2.jpg" alt="" class="img-fluid rounded shadow-sm"></div>              
+                    <div class="col-lg-6 mb-2 pl-lg-1"><img src="images/pic3.jpeg" alt="" class="img-fluid rounded shadow-sm"></div>                
+                    <div class="col-lg-6 pr-lg-1 mb-2"><img src="images/pic4.jpg" alt="" class="img-fluid rounded shadow-sm"></div>
+                    <div class="col-lg-6 pl-lg-1"><img src="images/pic5.jpg" alt="" class="img-fluid rounded shadow-sm"></div>
                 </div> 
             </div>
 
             <div class="px-4 py-3">
                 <div class="p-4 rounded shadow-sm bg-light">
-                    <p class="font-italic mb-0">All Rights Reserved. Copyright 2023</p>
+                    <center class="font-italic mb-0">All Rights Reserved. Copyright 2023</center>
                 </div>
             </div>
 

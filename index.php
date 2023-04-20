@@ -7,7 +7,7 @@ http://localhost/MyTumblr/index.php = "Gilbert";
 $acc_username = "Jezreel";
 $acc_password = "jezganda123";
 $acc_fullname = "Jezreel Dela Santa";
-$acc_address = "Marinduque PH";
+$acc_nickname = "이스르엘";
 //check the current url for the redirections later
 $url_add = "http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
 
@@ -75,17 +75,17 @@ if (isset($_REQUEST['login_button']) === true){
 		      					echo "<div class='alert alert-danger' role='alert'> Username does not exist...</div>";
 		      			
 		      			} else if (isset($_REQUEST['wrongpass']) === true){
-		      					echo "<div class='alert alert-warning' role='alert'> Incorrect Password...</div>";
+		      					echo "<div class='alert alert-warning' role='alert'> Wrong Password...</div>";
 
 		      			}else if (isset($_REQUEST['success']) === true){
-		      						echo "<div class='alert alert-sucess' role='alert'> Redirecting... </div>";
+		      						echo "<div class='alert alert-sucess' role='alert'> Logging In... </div>";
 		      						header ("Refresh: 5; url=account.php");
 
 		      			}else if (isset($_REQUEST['logout'])===true){
-		      				echo "<div class='alert alert-info' role='alert'> Thank you... </div>";
+		      				echo "<div class='alert alert-info' role='alert'> Logged Out... </div>";
 		      			
 		      			}else if(isset($_REQUEST['logfirst'])===true){
-		      				echo "<div class='alert alert-info' role='alert'> Please Login First... </div>";
+		      				echo "<div class='alert alert-info' role='alert'> Login to your Account... </div>";
 		      			
 		      			}else if (isset($_SESSION['ses_username'])===true){
 		      				echo "<div class='alert alert-danger' role='alert'> You are still logged in. Please click <a href='account.php'> here to proced. </div>";
@@ -112,7 +112,7 @@ if (isset($_REQUEST['login_button']) === true){
 	            </div>
 	            <div class="form-group">
 	            	
-	            	<button type="submit" class="btn btn-primary rounded submit p-3 px-5" name="login_button">Get Started</button>
+	            	<button type="submit" class="btn btn-primary rounded submit p-3 px-5" name="login_button">Log In</button>
 	            </div>
 	          </form>
 
